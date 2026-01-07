@@ -6,6 +6,7 @@ import Signup from './User/pages/Signup'
 import { useEffect, useState } from 'react'
 import PreLoader from './PreLoader'
 import Login from './User/pages/Login'
+import Home from './User/pages/Home'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/register' element={<Signup/>}/>
     <Route path='/login' element={<Login/>}/>
+    <Route path='/home' element={<Home/>}/>
   </Routes>
     </>
   )
